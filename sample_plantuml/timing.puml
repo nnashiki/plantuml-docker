@@ -1,0 +1,15 @@
+@startuml
+robust "ウェブブラウザ" as WB
+concise "ユーザ" as WU
+
+@0
+WU is アイドル
+WB is アイドル
+
+@100
+WU is 待機
+WB is 処理中
+
+@300
+WB is 待機
+@enduml
