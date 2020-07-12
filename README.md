@@ -14,3 +14,6 @@ docker run -v --rm plantuml:0.1 -testdot
 ```
 docker run -v ${PWD}:/work -w /work --rm plantuml:0.1 sample_plantuml/*.puml -o ../images
 ```
+
+# サンプル
+![](sample_image.jpg)
